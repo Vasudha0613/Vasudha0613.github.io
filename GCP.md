@@ -27,4 +27,18 @@ cloudrun -for deploying the projects
 cloud SQL API - manage RDB's like sql in the cloud
 
 
+1. Virtual Private Cloud (VPC)
+
+2.       is the software defined network in GCP,all the subnets r interconnected and isolated from one another and allows to each environment(dev,test,prod)
+3.    Each VPC can have multiple subnets, and each subnet exists within a single region and defines a range of IP addresses.
+
+ VPC (Virtual Private Cloud)
+A virtualized network that provides IP address management, routing, firewall rules, and VPN services for your GCP resources.
+
+🔹 Subnet (Subnetworks)
+A subnet is a regional resource — it defines a contiguous range of internal IP addresses. You assign instances (VMs) within a subnet, and they get IPs from that range.
+
+Firewall
+set of rules tat controls incoming and outgoing trafiic to and from resources in your VPC network
+      
 
