@@ -13,7 +13,9 @@ Uses- running Apps on GCP services
       Automating operations with scripts CI/CD
 
 API's
+
 Dailog flow API- creating playbooks,build chatbots
+
 Big query API-DB(run sql queries)
 Vertex AI-AI application work....deploy machine learning models
 connectors- connecting DB in projects,GCP services to external system
