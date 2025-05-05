@@ -9,4 +9,7 @@ custom - define specific permission for custom needs
 
 Service Account-special type of accoutn represents workload tat needs to authenticate and authorize to access GCP resources.
 scope- can b assigned specific IAM roles with limited permission 
+Uses- running Apps on GCP services
+      Automating operations with scripts CI/CD
+
 
