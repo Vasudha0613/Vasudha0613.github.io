@@ -40,5 +40,40 @@ A subnet is a regional resource — it defines a contiguous range of internal IP
 
 Firewall
 set of rules tat controls incoming and outgoing trafiic to and from resources in your VPC network
+
+
+
+
+
+
+
+📦 Types of Storage in GCP
+Type	Service	Description	Use Cases
+Object Storage	Cloud Storage	Stores data as objects in buckets	Backups, media storage, data lakes, logs
+Block Storage	Persistent Disk, Local SSD	Stores data in fixed-size blocks attached to VMs	VM boot disks, databases, high-speed temp storage
+File Storage	Filestore	Shared file system over NFS	Shared file systems, CMS, lift-and-shift apps
+Database Storage	Cloud SQL, Cloud Spanner, Firestore, Bigtable	Structured or semi-structured data storage services	Relational and NoSQL database apps
+
+       Object storage
+             Cloud storage,good for unstructured data images,backup,media
+
+        Block Storage
+              persistent disk
+              local SSD disk
+
+        File storage
+                  fully managed by NFS  file server.
+
+
+
+ Database Storage: Relational / NoSQL data with queries
+
+Filestore: Shared file storage via NFS
+
+Persistent Disk / Local SSD: Block storage for VMs
+
+Cloud Storage: Object storage for blobs, files, backups, etc.
+
+
       
 
