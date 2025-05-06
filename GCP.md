@@ -66,7 +66,20 @@ Terraform is an open-source Infrastructure as Code (IaC) tool. It allows you to 
 
 Instead of clicking around in a cloud provider's console (like AWS, Azure, or Google Cloud), you write code that describes the infrastructure you want — and Terraform builds it for you.
 
+🌥️ Terraform on Google Cloud Platform (GCP)
+You can use Terraform to manage:
 
+Compute Engine instances (VMs)
+
+Cloud Storage buckets
+
+Cloud SQL databases
+
+VPC networks, subnets, firewall rules
+
+GKE (Google Kubernetes Engine)
+
+IAM policies
 
 IAM - Identity Access Management-who can do what on which resources
 
@@ -137,6 +150,29 @@ Persistent Disk / Local SSD: Block storage for VMs
 
 Cloud Storage: Object storage for blobs, files, backups, etc.
 
+
+📥 1️⃣ Cloud Storage (Object Storage)
+Use Cases: file uploads, backups, static website hosting, ML data storage
+
+Inside GCP:
+
+Use the Cloud Storage client libraries (google-cloud-storage for Python, Java, Go etc.)
+
+Connect directly via service account credentials.
+
+GCP services like Dataflow, Cloud Functions, and AI Platform can directly read/write to it.
+
+Outside GCP:
+
+Use signed URLs for secure access to individual objects.
+
+Use Storage JSON API or XML API via HTTP requests.
+
+For external integrations, always manage permissions with IAM roles and service account JSON keys.
+
+You can enable VPC peering or Cloud VPN / Interconnect for private connectivity from on-premise systems.
+
+Use signed URLs or signed policy documents for temporary external access to Cloud Storage.
 
       
 
