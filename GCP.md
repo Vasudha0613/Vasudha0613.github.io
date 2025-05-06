@@ -246,7 +246,11 @@ IaaS = you manage your virtual machines (OS, apps, data)
 Cloud provider manages the physical hardware, hypervisor, and virtualization infrastructure
 
 
-
+📌 IaaS vs Other Cloud Models:
+Model	      You Manage	      Provider Manages
+IaaS	      OS, apps, data	      VMs, storage, networking, physical infrastructure
+PaaS	      Your code, configs	Everything else (runtime, scaling, OS, infra)
+SaaS	      Just use the app	      Everything (like Gmail, Google Docs, etc.)
 
 
       
