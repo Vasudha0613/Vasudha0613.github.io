@@ -174,5 +174,80 @@ You can enable VPC peering or Cloud VPN / Interconnect for private connectivity 
 
 Use signed URLs or signed policy documents for temporary external access to Cloud Storage.
 
+
+VM
+
+A Virtual Machine (VM) is a software-based emulation of a physical computer. It runs an operating system and applications just like a physical computer does — but it’s isolated from the underlying hardware and can run multiple virtual instances on a single physical server.
+
+
+
+📦 Key Characteristics of a VM:
+Runs its own Operating System (OS) (Linux, Windows, etc.)
+
+Has virtualized CPU, memory, storage, and network resources
+
+Managed by a hypervisor (like VMware, Hyper-V, or KVM) that divides physical hardware among multiple VMs
+
+Can be created, configured, and deleted quickly
+
+Isolated — problems in one VM don’t affect others on the same host
+
+🖥️ How It Differs from a Physical Machine:
+
+Physical Machine	      Virtual Machine
+Hardware-based	      Software-based
+One OS per server	      Multiple OSes per server
+Costly scaling	      Easy, fast, scalable
+Difficult to duplicate	Can be cloned/snapshotted
+
+
+📑 Example Use Cases:
+Hosting websites and applications
+
+Testing software in different OS environments
+
+Running legacy apps on modern infrastructure
+
+Cloud infrastructure (like AWS EC2, Azure VMs, GCP Compute Engine)
+
+
+🌐 VM in Cloud Platforms (like GCP)
+In cloud providers like Google Cloud Platform:
+
+VMs are called Compute Engine instances
+
+You pick machine types (CPU, memory), OS images, disk sizes
+
+Easily create, start, stop, or delete instances via a console or API
+
+
+📄 VM vs. Container (like Docker)
+VM	                        Container
+Emulates a full OS	      Shares host OS kernel
+Heavyweight	                  Lightweight
+Slower startup	            Fast startup
+Great for monolithic apps	Great for microservices
+
+
+📌 IaaS vs Other Cloud Models:
+Model	You Manage	Provider Manages
+IaaS	OS, apps, data	VMs, storage, networking, physical infrastructure
+PaaS	Your code, configs	Everything else (runtime, scaling, OS, infra)
+SaaS	Just use the app	Everything (like Gmail, Google Docs, etc.)
+
+
+📦 IaaS relation to Virtual Machines?
+IaaS stands for Infrastructure as a Service — it’s a cloud computing service model where you rent virtualized compute resources (like VMs), storage, networking, and other infrastructure over the internet.
+
+Instead of buying and managing your own physical servers, you rent them virtually on-demand.
+
+IaaS = you manage your virtual machines (OS, apps, data)
+
+Cloud provider manages the physical hardware, hypervisor, and virtualization infrastructure
+
+
+
+
+
       
 
