@@ -1,5 +1,72 @@
+
+EDA 
+Exploratory Data Analysis?it is important first step in any data science or machine learning workflow. It involves summarizing the main characteristics of a dataset, often using visual methods.
+
+EDA  involves:
+
+1️⃣ Load and Inspect Data
+
+Check shape, head, tail, types
+
+Detect missing values
+
+Understand data types (numeric, categorical, datetime)
+
+2️⃣ Descriptive Statistics
+
+Mean, median, mode
+
+Min, max, standard deviation
+
+
+3️⃣ Data Cleaning
+
+      Handle missing values
+
+      Fix data types
+
+      Remove duplicates
+
+      Handle outliers
+
+
+4️⃣ Univariate Analysis
+
+      Distribution of each variable
+
+      Histograms, boxplots, bar charts
+
+
+5️⃣ Bivariate / Multivariate Analysis
+
+Correlations between variables
+
+Scatter plots, pair plots, heatmaps, grouped bar plots
+
+6️⃣ Feature Engineering (optional during EDA)
+
+Creating new variables based on existing ones
+
+7️⃣ Data Visualization
+
+Visualizing relationships, trends, and patterns
+
+Tools: matplotlib, seaborn, plotly
+
+
+
+
+
+
 ## GCP-Google Cloud platform is a logical container for resources like API's.DB's
+
 Teraform
+
+Terraform is an open-source Infrastructure as Code (IaC) tool. It allows you to define, provision, and manage cloud infrastructure using configuration files written in a declarative language called HCL (HashiCorp Configuration Language).
+
+Instead of clicking around in a cloud provider's console (like AWS, Azure, or Google Cloud), you write code that describes the infrastructure you want — and Terraform builds it for you.
+
+
 
 IAM - Identity Access Management-who can do what on which resources
 
