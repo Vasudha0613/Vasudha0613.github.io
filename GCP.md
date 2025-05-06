@@ -110,16 +110,12 @@ set of rules tat controls incoming and outgoing trafiic to and from resources in
 
 
 
-
-
-
-
 📦 Types of Storage in GCP
 Type	Service	Description	Use Cases
 Object Storage	Cloud Storage	Stores data as objects in buckets	Backups, media storage, data lakes, logs
-Block Storage	Persistent Disk, Local SSD	Stores data in fixed-size blocks attached to VMs	VM boot disks, databases, high-speed temp storage
-File Storage	Filestore	Shared file system over NFS	Shared file systems, CMS, lift-and-shift apps
-Database Storage	Cloud SQL, Cloud Spanner, Firestore, Bigtable	Structured or semi-structured data storage services	Relational and NoSQL database apps
+Block Storage	Persistent Disk, Local SSD	Stores data in fixed-size blocks attached to VMs	VM boot disks, databases, high-speed temporary storage
+File Storage	Filestore	Shared file system over NFS	Shared file systems, CMS, lift-and-shift applications
+Database Storage	Cloud SQL, Cloud Spanner, Firestore, Bigtable	Structured or semi-structured data storage services	Relational and NoSQL database applications
 
        Object storage
              Cloud storage,good for unstructured data images,backup,media
