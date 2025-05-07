@@ -1,0 +1,18 @@
+Big Query
+
+Is a serverless,cloud-based data warehouse provided by Google cloud.
+Its designed for storing,Analysing and querying massive data quickly using SQL like syntax.
+It is powerful,scalable DB for bigdata Analytics.— no need to manage servers or infrastructure.
+
+📌 Real-life Use Cases:
+
+  Business intelligence dashboards
+
+  Customer behavior analytics
+
+  Real-time reporting
+
+  Log analysis for apps or websites
+
+  Predictive analytics using built-in ML
+
