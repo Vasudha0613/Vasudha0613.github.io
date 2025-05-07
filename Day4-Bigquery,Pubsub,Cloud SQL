@@ -16,3 +16,5 @@ It is powerful,scalable DB for bigdata Analytics.— no need to manage servers o
 
   Predictive analytics using built-in ML
 
+
+Google Cloud Pub/Sub (Publish/Subscribe) is a fully-managed real-time messaging service that allows independent services, applications, and systems to communicate with each other asynchronously and reliably.
