@@ -20,3 +20,75 @@ It is powerful,scalable DB for bigdata Analytics.— no need to manage servers o
 Google Cloud Pub/Sub (Publish/Subscribe) 
       is a fully-managed real-time messaging service that allows independent services, 
       applications, and systems to communicate with each other asynchronously and reliably.
+
+
+Vertex AI
+
+Vertex AI is Google Cloud’s fully managed end-to-end machine learning (ML) platform.
+It lets you build, deploy, and scale ML models without worrying about infrastructure — while also integrating easily with tools like BigQuery, Pub/Sub, and Cloud Storage.
+
+Think of it as the place where you:
+
+Train custom ML models
+
+Use pre-trained APIs (like Vision, Natural Language)
+
+Deploy models to serve predictions
+
+Automate ML workflows (pipelines)
+
+Do MLOps (model monitoring, versioning, CI/CD for ML)
+
+
+Workflow with Vertex AI:
+Prepare your dataset
+
+Train a model (using AutoML or your own custom code)
+
+Deploy it to an endpoint
+
+Call the endpoint for predictions
+
+
+
+Dialogflow
+
+  is a Google cloud  service tat lets u build conversational interfaces ,like chatbots or voice powered apps.
+using natural language understanding (NLU). It’s a popular tool for integrating conversational agents into websites, mobile apps, Google Assistant, and other platforms.
+
+There are two versions:
+
+Dialogflow ES (Essentials) — simpler, suitable for smaller projects.
+
+Dialogflow CX (Customer Experience) — more advanced, designed for complex, multi-turn conversations and enterprise-grade bots.
+
+
+Concepts
+
+1. Agent
+The virtual NLU-powered bot that handles conversations.
+
+2. Intents
+What the user wants to do.
+Example:
+
+User says: "Book a hotel room"
+
+Intent: book_hotel
+
+3. Entities
+Extracted values from user inputs.
+Example:
+
+"Book a hotel in Paris on Friday"
+
+Entities: location: Paris, date: Friday
+
+4. Contexts
+Temporary memory that holds conversation state — used for multi-turn conversations.
+
+5. Fulfillment
+Custom business logic (usually via a webhook) that executes when certain intents are matched.
+
+
+
