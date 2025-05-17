@@ -1,4 +1,4 @@
-An**AI Engineer** is a specialist who focuses on building, deploying, and maintaining AI systems by combining software engineering, data science, and AI principles. They are responsible for taking AI models and integrating them into real-world applications to improve efficiency, decision-making, and profitability. 
+An **AI Engineer** is a specialist who focuses on building, deploying, and maintaining AI systems by combining software engineering, data science, and AI principles. They are responsible for taking AI models and integrating them into real-world applications to improve efficiency, decision-making, and profitability. 
 
 **Core Responsibilities**
 
@@ -7,7 +7,7 @@ AI engineers take AI models developed by data scientists and machine learning en
 Model Optimization and Fine-tuning:
 They optimize AI models for performance, accuracy, and efficiency by using techniques like fine-tuning, prompt engineering, and reinforcement learning. 
 
-Building AI Pipelines:
+**Building AI Pipelines**:
 
 AI engineers create pipelines that automate the process of data collection, model training, evaluation, deployment, and monitoring. 
 Ensuring Scalability and Reliability:
