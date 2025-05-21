@@ -198,3 +198,51 @@ Secure and scale the system.
 
 Iterate and test via UAT.
 
+
+
+1. Dialogflow CX
+A Google tool to build advanced chatbots and voice assistants.
+
+Helps design multi-turn conversations with users using a visual flow builder.
+
+2. Vertex AI
+Google Cloud’s unified platform for building, training, and deploying machine learning models.
+
+Supports AutoML and custom model training using Python, TensorFlow, etc.
+
+3. BigQuery
+A serverless data warehouse by Google Cloud.
+
+Used for running fast SQL queries on large datasets (often for analytics and AI models).
+
+4. Dataflow
+A Google Cloud tool for processing and transforming large amounts of data in real time or in batch.
+
+Commonly used in AI pipelines to prepare or clean data.
+
+5. LangChain
+A framework that connects language models (like ChatGPT) with external data sources (e.g., documents, APIs).
+
+Helps create advanced AI assistants that can reason or search databases.
+
+6. RAG Framework (Retrieval-Augmented Generation)
+An AI method that first retrieves relevant data and then generates a response using an LLM (large language model).
+
+Improves chatbot accuracy by grounding answers in real data.
+
+7. Vector Databases (ChromaDB, FAISS)
+Specialized databases that store and search data as vectors (numerical representations of words or documents).
+
+Used in AI to quickly find similar content — key for RAG or search bots.
+
+8. NLP (Natural Language Processing) Concepts:
+Tokenization: Splitting text into individual words or pieces.
+
+Lemmatization: Reducing words to their root form (e.g., "running" → "run").
+
+TF-IDF: A technique to find important words in a document.
+
+Word2Vec: A model that represents words as vectors, showing how they relate in meaning.
+
+
+
