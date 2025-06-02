@@ -46,10 +46,7 @@ In general, playbooks are step-by-step guides or automated workflows used to com
 🧠 Simple Definition:
 A playbook is like a recipe: it tells systems what to do, in what order, and how — usually to solve a common problem or automate a repetitive task.
 
-🛠️ Types of Playbooks:
-Area	What Playbooks Do
-DevOps (e.g., Ansible)	Automate server setup, deployments, configuration changes
-Security	Respond to threats (e.g., isolate a machine, block IPs)
+
 Google Cloud Platform (GCP)	Guide users to solve issues or run cloud automation workflows
 Incident Response	Define how to handle outages or system failures
 Conversational AI (e.g., Vertex AI, Dialogflow)	Guide bot behavior step-by-step for user interactions
